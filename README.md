@@ -30,11 +30,3 @@
 | **Button JMT** | GPIO 27 |
 | **Button STOP** | GPIO 26 |
 
-## 🚀 How to Run
-1. Download the `LiveVote.ino` file.
-2. Open it in Arduino IDE.
-3. Install the required libraries (`MFRC522` and `LiquidCrystal I2C`).
-4. Update the WiFi credentials in the code:
-   ```cpp
-   const char* ssid = "YOUR_WIFI_NAME";
-   const char* password = "YOUR_WIFI_PASSWORD";
